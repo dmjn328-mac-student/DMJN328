@@ -4,9 +4,9 @@ install.lib<-to.install[!to.install %in% installed.packages()]
 for(lib in install.lib) install.packages(lib,dependencies=TRUE)
 
 #Install from github
-devtools::install_github("andrewbtran/muckrakr")
-devtools::install_github("AliciaSchep/gglabeller") 
-devtools::install_github("kjhealy/socviz") 
+devtools::install_github("andrewbtran/muckrakr", force=t)
+devtools::install_github("AliciaSchep/gglabeller", force=t)
+devtools::install_github("kjhealy/socviz", force=t)
 
 library(ggplot2)
 var1<-seq(1,100,1)
