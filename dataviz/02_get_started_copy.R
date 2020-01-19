@@ -1,53 +1,12 @@
-## ----setup, include=FALSE---------------------------------------------
-knitr::opts_chunk$set(echo = TRUE)
-
 library(gapminder)
 library(here)
 library(tidyverse)
 library(socviz)
-
-
-## ----02-get-started-1-------------------------------------------------
-
-
-
-## ----02-get-started-2-------------------------------------------------
-
-
-
-## ----objects----------------------------------------------------------
-c(1, 2, 3, 1, 3, 5, 25)
-
-
-
-## ----create_objects---------------------------------------------------
-my_numbers <- c(1, 2, 3, 1, 3, 5, 25)
-
+c(1,2,3,1,3,5,25)
+my_numbers <-- c(1,2,3,1,5,25)
 your_numbers <- c(5, 31, 71, 1, 3, 21, 6)
-
-
-## ----02-get-started-3-------------------------------------------------
-my_numbers
-
-
-## ----02-get-started-4-------------------------------------------------
-my_numbers
-
-
-## ----this_will_error, eval = FALSE------------------------------------
-## mean()
-
-
-## ----02-get-started-5-------------------------------------------------
-mean(x = my_numbers)
-
-mean(x = your_numbers)
-
-
-## ----02-get-started-6-------------------------------------------------
-mean(my_numbers)
-
-
+mean(x=my_numbers)
+mean(x=your_numbers)
 ## ----02-get-started-7-------------------------------------------------
 my_summary <- summary(my_numbers)
 
