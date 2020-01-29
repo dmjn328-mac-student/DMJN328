@@ -1,0 +1,46 @@
+year,high_temp,low_temp,precipitation_24hrs,weather,track_condition,attendance,race
+2019,71,58,0.34,Showery,Sloppy,150729,Kentucky Derby
+2018,70,61,3.15,Showery,Sloppy,157813,Kentucky Derby
+2017,62,42,0.12,Clear,Muddy,158070,Kentucky Derby
+2016,85,59,0.28,Clear,Fast,167227,Kentucky Derby
+2015,79,52,0,Clear,Fast,170513,Kentucky Derby
+2014,73,45,0,Clear,Fast,164906,Kentucky Derby
+2013,64,53,0.87,Rainy,Sloppy,151616,Kentucky Derby
+2012,83,65,1.46,Cloudy,Fast,165307,Kentucky Derby
+2011,72,51,0,Clear,Fast,164858,Kentucky Derby
+2010,75,63,1.32,Cloudy,Sloppy,155804,Kentucky Derby
+2009,62,51,0.07,Cloudy,Sloppy,153563,Kentucky Derby
+2008,75,50,0.69,Clear,Fast,157770,Kentucky Derby
+2007,78,62,0.98,Cloudy,Fast,156635,Kentucky Derby
+2006,68,52,0,Clear,Fast,157536,Kentucky Derby
+2005,80,48,0,Cloudy,Fast,156435,Kentucky Derby
+2019,78.1,60.1,0,Clear,Fast,56217,Belmont Stakes
+2018,79,57.9,0,Clear,Fast,90327,Belmont Stakes
+2017,84,51.1,0,Clear,Fast,57729,Belmont Stakes
+2016,82,57.9,0,Clear,Fast,60114,Belmont Stakes
+2015,79,57,0.2,Clear,Fast,90000,Belmont Stakes
+2014,80.1,61,0,Clear,Fast,102199,Belmont Stakes
+2013,75.9,57,4.11,Clear,Fast,55779,Belmont Stakes
+2012,80.1,59,0,Cloudy,Fast,85811,Belmont Stakes
+2011,75.9,62.6,0.2,Cloudy,Sloppy,47562,Belmont Stakes
+2010,90,70,0,Clear,Fast,45243,Belmont Stakes
+2009,72,57,0,Clear,Fast,52186,Belmont Stakes
+2008,82.9,57.9,0,Clear,Fast,94476,Belmont Stakes
+2007,81,62.1,0,Clear,Fast,46870,Belmont Stakes
+2006,75.9,57,0,Clear,Fast,61168,Belmont Stakes
+2005,78.1,64,0,Cloudy,Fast,62274,Belmont Stakes
+2019,78.1,70,0,Cloudy,Fast,131256,Preakness
+2018,64,52,0.95,Foggy,Sloppy,134487,Preakness
+2017,77,66,0.43,Cloudy,Fast,140327,Preakness
+2016,70,55,0.03,Rainy,Sloppy,135256,Preakness
+2015,82.9,63,0,Rainy,Sloppy,131680,Preakness
+2014,68,54,0.38,Cloudy,Fast,123469,Preakness
+2013,78.1,64,0,Clear,Fast,117203,Preakness
+2012,84,60.1,0,Clear,Fast,121309,Preakness
+2011,73.9,59,0.08,Clear,Fast,118356,Preakness
+2010,76.1,66.7,0,Clear,Fast,96760,Preakness
+2009,75.7,66.7,0,Showery,Fast,77850,Preakness
+2008,75,48.9,0.17,Clear,Fast,121876,Preakness
+2007,75.9,54,0,Cloudy,Fast,132221,Preakness
+2006,68,55.4,0,Clear,Fast,128643,Preakness
+2005,73,48.9,0,Clear,Fast,125687,Preakness
