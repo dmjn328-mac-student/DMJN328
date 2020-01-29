@@ -1,0 +1,5 @@
+x <- rnorm(100)
+plot(x)
+j <- c(1,2,NA)
+max(j,na.rm=T)
+m<- "appl
