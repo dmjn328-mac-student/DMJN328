@@ -124,3 +124,9 @@ str_to_title(x)
 x <- c(" Assault", "Burglary ", " Kidnapping ")
 str_trim(x)
 
+install.packages("learnr")
+install.packages("rmarkdown")
+install.packages("tidyverse")
+rmarkdown::run("chapter-3/index.Rmd")
+
+getwd()
