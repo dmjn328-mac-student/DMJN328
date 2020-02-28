@@ -84,8 +84,20 @@ ggplot(data=elections)+
   ylim(0, 100)
 
 #Trying to rename axis name
+### One way:
+ggplot(data=elections)+
+  geom_bar(mapping=aes(x=Date, y=as.numeric(elections$Turnout)),stat="identity")+
+  ylim(0, 100)+labs(x='Turnout')
 
-  as.numeric(elections$Tunrout) <- rename (as.numeric(elections$Tunrout), replace =("Turnout")
-                                           
-                      
+### Another way:
+##Save the as.numeric version of elections$Turnout as the variable.
+##Here we are just overwriting the old turnout variable with the numeric version of it. 
+elections$Turnout<-as.numeric(elections$Turnout)
+
+##Run the gtraph again
+##Notice we don't need to use as.numeric in the gglot command, because we kind of did it in the line above. 
+ggplot(data=elections)+
+  geom_bar(mapping=aes(x=Date, y=elections$Turnout),stat="identity")+
+  ylim(0, 100)+labs(x="Turnout")
+
   
