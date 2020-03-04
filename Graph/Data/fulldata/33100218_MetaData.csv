@@ -1,0 +1,86 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Representation of men and women on boards of directors",33100218,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310021801",,"CURRENT - a cube available to the public and that is current",Annual,2016-01-01,2017-01-01,7
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,Gender,,,
+3,"Type of corporation",8,,
+4,"Country of control",9,,
+5,Industry,1;2;3;4;5;6;7,,
+6,"Size of enterprise",,,
+7,"Unit of measure",,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,,,,
+2,"Female gender",,1,,,,,,
+2,"Male gender",,2,,,,,,
+3,"Total, all corporations",,1,,,,,,
+3,"Government business entities",,2,1,,,,,
+3,"Publicly traded corporations",,3,1,,8,,,
+3,"Private enterprises",,4,1,,,,,
+3,"Unclassified enterprises",,5,1,,,,,
+4,"Total, all countries",,1,,,,,,
+4,Canada,,2,1,,,,,
+4,France,,3,1,,,,,
+4,"United Kingdom",,4,1,,,,,
+4,"United States",,5,1,,,,,
+4,Germany,,6,1,,,,,
+4,Japan,,7,1,,,,,
+4,"Other country of control",,8,1,,9,,,
+4,"Unclassified country of control",,9,1,,,,,
+5,"Total, all industries",,1,,,,,,
+5,Finance,,2,1,,1,,,
+5,Utilities,,3,1,,2,,,
+5,"Management of companies and enterprises",,4,1,,3,,,
+5,"Distributive trade",,5,1,,4,,,
+5,Energy,,6,1,,5,,,
+5,Manufacturing,,7,1,,6,,,
+5,Construction,,8,1,,7,,,
+5,"Other industry",,9,1,,,,,
+5,"Unclassified industry",,10,1,,,,,
+6,"Total, all sizes",,1,,,,,,
+6,"First quartile",,2,1,,,,,
+6,"Second quartile",,3,1,,,,,
+6,"Third quartile",,4,1,,,,,
+6,"Fourth quartile",,5,1,,,,,
+6,"Unclassified size of enterprise",,6,1,,,,,
+7,Number,,1,,,,,,
+7,Percentage,,2,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+2503,"Corporations Returns Act"
+
+"Subject Code","Subject Name"
+33,"Business performance and ownership"
+
+"Note ID",Note
+1,"Finance: This represents the North American Industry Classification System (NAICS) code 52."
+2,"Utilities: This represents the North American Industry Classification System (NAICS) code 22."
+3,"Management of companies and enterprises: This represents the North American Industry Classification System (NAICS) code 55."
+4,"Distributive trade: This combines the North American Industry Classification System (NAICS) codes 41, 44 and 45."
+5,"Energy: This combines the North American Industry Classification System (NAICS) codes 211, 212, 213 and 324. "
+6,"Manufacturing: This combines the North American Industry Classification System (NAICS) codes 31, 32 and 33."
+7,"Construction: This represents the North American Industry Classification System (NAICS) code 23."
+8,"Publicly traded corporations:  This grouping consists solely of corporations which issue publicly traded shares."
+9,"Other country of control: includes all other countries except those classified to Canada, France, United Kingdom, United States, Germany or Japan."
+
+"Correction ID","Correction Date","Correction Note"
+
+

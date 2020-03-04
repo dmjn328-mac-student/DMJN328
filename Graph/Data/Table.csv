@@ -1,0 +1,38 @@
+﻿Representation of men and women on boards of directors
+"Annual"
+"Table: 33-10-0218-01"
+"Geography: Canada"
+
+"","","Total, all countries",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"","","Total, all industries",,,,"Finance 3",,,,"Utilities 4",,,,"Management of companies and enterprises 5",,,,"Distributive trade 6",,,,"Energy 7",,,,"Manufacturing 8",,,,"Construction 9",,,,"Other industry",,,,"Unclassified industry",,,
+"","","Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,,"Total, all sizes",,,
+"","","Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,,"Canada",,,
+"","","Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",,"Female gender",,"Male gender",
+"Type of corporation1","Unit of measure","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017","2016","2017"
+"Total, all corporations","Number","5,423","5,670","25,063","25,596","1,510","1,633","5,399","5,371","101","123","351","376","791","871","3,416","3,638","648","692","3,651","3,763","171","161","1,069","993","406","410","2,698","2,728","140","162","984","1,027","1,389","1,408","6,582","6,772","267","210","913","928"
+,"Percentage","17.8","18.1","82.2","81.9","21.9","23.3","78.1","76.7","22.3","24.6","77.7","75.4","18.8","19.3","81.2","80.7","15.1","15.5","84.9","84.5","13.8","14.0","86.2","86.0","13.1","13.1","86.9","86.9","12.5","13.6","87.5","86.4","17.4","17.2","82.6","82.8","22.6","18.5","77.4","81.5"
+"Government business entities","Number","33","50","86","92","11","12","14","14","..","3","1","7","9","12","16","23","..","1","5","3","..","..","..","..","..","..","..","..","..","..","..","..","13","22","50","45","..","..","..",".."
+,"Percentage","27.7","35.2","72.3","64.8","44.0","46.2","56.0","53.8","..","30.0","100.0","70.0","36.0","34.3","64.0","65.7","..","25.0","100.0","75.0","..","..","..","..","..","..","..","..","..","..","..","..","20.6","32.8","79.4","67.2","..","..","..",".."
+"Publicly traded corporations 1","Number","596","608","2,334","2,246","144","148","472","417","20","20","46","49","194","210","754","776","28","34","114","124","71","52","388","328","35","41","176","183","7","7","20","24","91","92","335","327","6","4","29","18"
+,"Percentage","20.3","21.3","79.7","78.7","23.4","26.2","76.6","73.8","30.3","29.0","69.7","71.0","20.5","21.3","79.5","78.7","19.7","21.5","80.3","78.5","15.5","13.7","84.5","86.3","16.6","18.3","83.4","81.7","25.9","22.6","74.1","77.4","21.4","22.0","78.6","78.0","17.1","18.2","82.9","81.8"
+"Private enterprises","Number","4,725","4,949","22,410","23,025","1,333","1,457","4,842","4,874","81","100","304","320","581","642","2,611","2,803","619","652","3,514","3,614","99","108","675","653","358","358","2,477","2,501","126","148","955","995","1,269","1,278","6,149","6,355","259","206","883","910"
+,"Percentage","17.4","17.7","82.6","82.3","21.6","23.0","78.4","77.0","21.0","23.8","79.0","76.2","18.2","18.6","81.8","81.4","15.0","15.3","85.0","84.7","12.8","14.2","87.2","85.8","12.6","12.5","87.4","87.5","11.7","12.9","88.3","87.1","17.1","16.7","82.9","83.3","22.7","18.5","77.3","81.5"
+"Unclassified enterprises","Number","69","63","233","233","22","16","71","66","..","..","..","..","7","7","35","36","1","5","18","22","1","1","6","12","13","11","45","44","7","7","9","8","16","16","48","45","2","..","1",".."
+,"Percentage","22.8","21.3","77.2","78.7","23.7","19.5","76.3","80.5","..","..","..","..","16.7","16.3","83.3","83.7","5.3","18.5","94.7","81.5","14.3","7.7","85.7","92.3","22.4","20.0","77.6","80.0","43.8","46.7","56.3","53.3","25.0","26.2","75.0","73.8","66.7","..","33.3",".."
+
+.. : not available for a specific reference period,
+
+Footnotes:
+1,Publicly traded corporations:  This grouping consists solely of corporations which issue publicly traded shares.
+2,"Other country of control: includes all other countries except those classified to Canada, France, United Kingdom, United States, Germany or Japan."
+3,Finance: This represents the North American Industry Classification System (NAICS) code 52.
+4,Utilities: This represents the North American Industry Classification System (NAICS) code 22.
+5,Management of companies and enterprises: This represents the North American Industry Classification System (NAICS) code 55.
+6,"Distributive trade: This combines the North American Industry Classification System (NAICS) codes 41, 44 and 45."
+7,"Energy: This combines the North American Industry Classification System (NAICS) codes 211, 212, 213 and 324. "
+8,"Manufacturing: This combines the North American Industry Classification System (NAICS) codes 31, 32 and 33."
+9,Construction: This represents the North American Industry Classification System (NAICS) code 23.
+
+"How to cite: Statistics Canada. Table 33-10-0218-01 Representation of men and women on boards of directors"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3310021801
+DOI:  https://doi.org/10.25318/3310021801-eng
