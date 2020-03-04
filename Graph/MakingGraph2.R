@@ -18,7 +18,7 @@ ggplot(tidy_race2,
            position="dodge")+
   facet_wrap(~Track_Conditions)
 
-#basically done Graph
+#Hi Simon this is my final graph code please use this
 ggplot(tidy_race2,
        aes(x=Year, y= Attendance, fill=Track_Conditions))+
   geom_bar(stat="identity",
