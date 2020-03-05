@@ -1,0 +1,18 @@
+﻿"REF_DATE","GEO","DGUID","Trip characteristics","Length of stay","Mode of transportation","UOM","UOM_ID","SCALAR_FACTOR","SCALAR_ID","VECTOR","COORDINATE","VALUE","STATUS","SYMBOL","TERMINATED","DECIMALS"
+"2019-08","Canada","2016A000011124","Total vehicles entering Canada","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129299","1.1.1.1","3534811","","","","0"
+"2019-09","Canada","2016A000011124","Total vehicles entering Canada","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129299","1.1.1.1","2791764","","","","0"
+"2019-10","Canada","2016A000011124","Total vehicles entering Canada","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129299","1.1.1.1","2645404","","","","0"
+"2019-11","Canada","2016A000011124","Total vehicles entering Canada","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129299","1.1.1.1","2332807","","","","0"
+"2019-12","Canada","2016A000011124","Total vehicles entering Canada","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129299","1.1.1.1","2363936","","","","0"
+"2019-08","Canada","2016A000011124","Total United States vehicles entering","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129300","1.2.1.1","1240799","","","","0"
+"2019-09","Canada","2016A000011124","Total United States vehicles entering","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129300","1.2.1.1","874445","","","","0"
+"2019-10","Canada","2016A000011124","Total United States vehicles entering","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129300","1.2.1.1","787964","","","","0"
+"2019-11","Canada","2016A000011124","Total United States vehicles entering","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129300","1.2.1.1","670348","","","","0"
+"2019-12","Canada","2016A000011124","Total United States vehicles entering","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129300","1.2.1.1","705841","","","","0"
+"2019-08","Canada","2016A000011124","Total Canadian vehicles returning","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129307","1.3.1.1","2294012","","","","0"
+"2019-09","Canada","2016A000011124","Total Canadian vehicles returning","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129307","1.3.1.1","1917319","","","","0"
+"2019-10","Canada","2016A000011124","Total Canadian vehicles returning","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129307","1.3.1.1","1857440","","","","0"
+"2019-11","Canada","2016A000011124","Total Canadian vehicles returning","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129307","1.3.1.1","1662459","","","","0"
+"2019-12","Canada","2016A000011124","Total Canadian vehicles returning","Length of stay, total","Mode of transportation, total","Number","223","units","0","v129307","1.3.1.1","1658095","","","","0"
+
+
