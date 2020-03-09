@@ -125,6 +125,30 @@ ggplot(data=elections)+
   ylim(0, 100)+labs(y="Turnout")+
   scale_x_date(date_breaks = "20 years")
 
+## Some changes.
+ggplot(data=elections)+
+  geom_bar(mapping=aes(x=Date,fill=Turnout, y=Turnout),stat="identity")+
+  ylim(0, 100)+labs(y="Turnout")+
+  scale_x_date(date_breaks = "20 years")+theme_bw()
+
+#Some changes
+ggplot(data=elections)+
+  #I would take the fill command out; you're already showing the turnout with the height of the bar; adding a fill adds ink, but no more information. 
+  geom_bar(mapping=aes(x=Date,y=Turnout),stat="identity")+
+  ylim(0, 100)+labs(y="Turnout", x="Date")+
+  #scale_x_date has a lot of functionality. setting date_labels only prints the Year, setting the breaks to be #elections$Date only prints years that have an election in them 
+ scale_x_date(date_labels="%Y", breaks=elections$Date)+
+  #this just makes things cleaner
+  theme_minimal()+
+  #coord_flip rotates so the x-axis is on the side; it can be a way of dealing with long text labels
+  coord_flip()+
+  #Add some labels
+  labs(title="Turnout in Canadian Elections, 1867-2019", caption="Source: Elections Canada")
+
+
+
+
+
 
 
 
