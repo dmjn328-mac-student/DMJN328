@@ -3,6 +3,9 @@
 #3. Select "Overview"
 #4. Choose a geographic level of boundaries to download. We will download the Census Tract CT data. 
 #5. Copy and past the R code below.
+install.packages("cancensus")
+library(cancensus)
+options(cancensus.api_key='CensusMapper_2189242167f3e0226927cc9943f53e24')
 
 ### Setting your API and your Cache path
 # Your API is like a signature. Only you have this and you use it to get special access to datasets.
@@ -15,7 +18,7 @@
 #Watch what happens
 file.path("~", ".Rprofile")
 #uncomment and run this command to edit your .Rprofile 
-#file.edit(file.path("~", ".Rprofile"))
+file.edit(file.path("~", ".Rprofile"))
 
 #Add these two lines to your .Rprofile file and save. 
 #Incidentally, while you are there, you can give yourself a funny message that will run everytime you start R. 
