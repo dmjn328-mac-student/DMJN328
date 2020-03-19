@@ -51,13 +51,11 @@ ggplot(ham7, aes(geometry=geometry, fill=n))+
   labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")
 
 #what i want to do next - change the colours of the map
-#why isnt it showing as a percent???????
+
 #playing with fonts
 windowsFonts()
 library(extrafont)
-font_import()
-y
-loadfonts(device = "win")
+
 
 #making sexs a percentage of the population
 ham8 <-mutate(ham7, percent=(n/Population)*100)
@@ -69,14 +67,7 @@ ggplot(ham8, aes(geometry=geometry, fill=percent))+
   scale_color_viridis(direction=-1)+
   theme_minimal()+
   theme(text=element_text(size=16,  family="Calibri Light"))+
-  labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")
-
-#not percent of the population
-ggplot(ham7, aes(geometry=geometry, fill=n))+
-  geom_sf()+
-  facet_wrap(~Sex)+
-  scale_fill_viridis(direction=-1)+
-  scale_color_viridis(direction=-1)+
-  theme_minimal()+
-  theme(text=element_text(size=16,  family="Calibri Light"))+
-  labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")
+  labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")+
+  scale_fill_gradient(low="darkslategray1", high = "gray48")
+  
+#Final Graph
