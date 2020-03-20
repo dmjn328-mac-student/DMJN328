@@ -71,9 +71,10 @@ ggplot(ham8, aes(geometry=geometry, fill=percent))+
 ggplot(ham8, aes(geometry=geometry, fill=percent))+
   geom_sf()+
   facet_wrap(~Sex)+
-  theme(text=element_text(size=16,  family="Calibri Light"))+
   labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")+
   scale_fill_gradient(low="darkslategray1", high = "gray48")+
-  theme(panel.grid.major = element_line(color='transparent'))+
-  theme_void()
+    theme(text=element_text(size=16,  family="Calibri Light"))+
+  scale_fill_gradient(low="darkslategray1", high = "gray48")+
+  theme_void()+
   theme(panel.grid.major = element_line(color='transparent'))
+
