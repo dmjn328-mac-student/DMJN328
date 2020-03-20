@@ -58,12 +58,13 @@ library(extrafont)
 ham8 <-mutate(ham7, percent=(n/Population)*100)
 
 #Final Graph
+#Final Graph
 ggplot(ham8, aes(geometry=geometry, fill=percent))+
   geom_sf()+
   facet_wrap(~Sex)+
-  scale_fill_viridis(direction=-1)+
-  scale_color_viridis(direction=-1)+
-  theme(text=element_text(size=16,  family="Calibri Light"))+
+  #I turned this off, just because I didn't have the font library, you can uncomment this.
+#  theme(text=element_text(size=16,  family="Calibri Light"))+
   labs(title="Percent of Youth (15 to 19) Population in Hamilton by Sex", caption="Source: StatsCan")+
   scale_fill_gradient(low="darkslategray1", high = "gray48")+
+  theme_void()+
   theme(panel.grid.major = element_line(color='transparent'))
