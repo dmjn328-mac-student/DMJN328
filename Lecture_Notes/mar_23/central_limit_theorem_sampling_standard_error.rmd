@@ -1,0 +1,61 @@
+---
+title: "Central Limit Theorem, Samp,ing, Standard Error"
+author: "Simon J. Kiss"
+date: "19/03/2020"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set( cache=T, echo=T, message=F, warning=F)
+```
+
+# The problem
+- Sample v. Population
+
+$$ \overline{x} v. \mu $$
+
+# The Central Limit Theorem
+
+# The Data
+- Statistics Canada publishes Public Use Microdata File
+```{r read-in-data}
+load("data/census_2016.rdata")
+```
+
+# Example
+- First we use the `look_for()` command in the `labelled` library
+
+```{r look-for-wages}
+library(labelled)
+look_for(census_2016, "wage")
+
+```
+- So now we have the `Wages` variable
+
+# Example
+- Check the average
+```{r check-mean}
+mean(census_2016$Wages, na.rm=T)
+```
+- So this could be considered the 
+
+```{r graph-histogram}
+library(tidyverse)
+census_2016 %>% 
+  ggplot(., aes(x=Wages))+geom_histogram(bins=200)
+
+```
+
+# Example
+- Select only the wages variable
+```{r select-only-wages}
+census_2016 %>% 
+  select(Wages)-> df
+```
+
+```{r}
+df %>% 
+  select(Wages) %>% 
+  sample(., size=5)
+```
+

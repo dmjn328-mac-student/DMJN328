@@ -1,5 +1,5 @@
 ---
-title: "Quantification"
+title: "Quantification and Levels of measurement"
 author: "Simon J. Kiss"
 date: "10/03/2020"
 output: slidy_presentation
