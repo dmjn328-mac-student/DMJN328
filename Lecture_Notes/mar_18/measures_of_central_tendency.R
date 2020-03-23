@@ -1,5 +1,5 @@
 ## ----load-data----------------------------------------------------------------------------------
-#install.packages(c('haven', 'labelled'))
+install.packages(c('haven', 'labelled'))
 library(haven)
 lfs<-read_sav('https://github.com/sjkiss/DMJN328/raw/master/Lecture_Notes/mar_11/data/lfs.sav')
 
@@ -44,7 +44,8 @@ summarize(avg=mean(HRLYEARN, na.rm=T))
 vector1<-c(1,2,3,4,5,6,7,8,9,10)
 mean(vector1)
 vector2<-c(1,2,3,4,5,6,7,8,9,10, 1000000)
-mean(vector2)
+mean(vector2)x
+
 
 
 ## ----show-median-of-hourly-wages----------------------------------------------------------------
