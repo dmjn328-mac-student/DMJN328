@@ -65,9 +65,9 @@ gapminder %>%
 
 7. What is the central limit theorem? What does it enable?
 
-8. In words, what is the general relationship between sample size and standard error? 
+8. In words, what is the general relationship between sample size and standard error? Is a larger sample size always better?
 
-9. What is a 95% confidence interval (or margin of error)? What happens to a confidence interval (or margin of error) as the sample size increases?
+9. What is a 95% confidence interval (or margin of error)? What happens to a confidence interval (or margin of error) as the sample size increases? What is the logic behind using a 95% confidence interval, as opposed to a 90% or 80% confidence interval?
 
 10. What does a p-value communicate? What are some disadvantages of p-values? What does a p-value *not* communicate? 
 
