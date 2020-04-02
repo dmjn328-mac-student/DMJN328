@@ -1,0 +1,78 @@
+---
+title: "Final Exam"
+author: "Simon J. Kiss"
+date: "01/04/2020"
+output: word_document
+bibliography: /Users/skiss/OneDrive - Wilfrid Laurier University/Courses/DMJN328/DMJN328.bib
+---
+
+```{r setup, include=FALSE, echo=F, results="hide"}
+knitr::opts_chunk$set(echo =F, results="hide", message=F, warning=F)
+```
+
+# Instructions 
+Answer *nine* of the following 12 questions in paragraph-length. Draw on any material you want (e.g. the course texts, lecture materials, course slides). Each question will be graded out of five, on the following scale. 
+
+| Points |Definition |
+|:---------------------------|:----------------------|
+| 5| Outstanding and comprehensive| 
+| 4  | Very good and nearly comprehensive | 
+|3 | Sufficient and shows basic understanding|
+| 2| Not sufficient but the answer demonstrates some understanding of material close to the answer | 
+|1 | There is a meaningful answer that has at best a tangential relation to the material |
+| 0 | false with no demonstration of understanding the material |
+
+# Questions
+
+1. What is meant by the data-to-ink ratio in data visualization [@healy_data_2018]? Why is it a good thing? What are some practical reasons for why it might occasionally have to be abandoned? 
+
+2. How many variables are in this grap and what are they called?
+
+
+```{r graph, include=T, fig.width=7, fig.height=3}
+
+library(tidyverse)
+library(gapminder)
+gapminder %>% 
+  filter(country %in% c('Russia', 'Poland', 'Canada', 'United States', 'China', 'Vietnam')) %>% 
+  ggplot(., aes(x=year, y=gdpPercap, col=country))+geom_point()+geom_line()+labs(y="GDP per Capita", x="Year")+theme_bw()+facet_grid(~continent)
+
+```
+
+
+3. What is meant by a tidy data-set?  Imagine the following data set below that shows the pretend unemployment rate in three Ontario cities. How would you reshape the data so that it is tidy? Demonstrate by making a new, tidier table next to it or below it in your word processor. 
+
+
+| City | 2002 | 2003 |
+|:---------|:----|:----|
+| Toronto |4 | 5 |
+| Brantford | 4 | 5 | 
+| Hamilton | 3 | 5 | 
+
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+\newline
+
+4. What is meant by levels of measurement? What are the broad categories of levels of measurement in statistical analysis? Why do they matter for visualization?
+
+5. What are three measures of central tendency? What are the differences between them? What are some strengths and weaknesses of each?
+
+7. What is the central limit theorem? What does it enable?
+
+8. In words, what is the general relationship between sample size and standard error? 
+
+9. What is a 95% confidence interval (or margin of error)? What happens to a confidence interval (or margin of error) as the sample size increases?
+
+10. What does a p-value communicate? What are some disadvantages of p-values? What does a p-value *not* communicate? 
+
+11. What is the difference between a cross-sectional study and an experimental study? What advantages and disadvantages do both offer? 
+
+12. What is meant by publication bias in scientific publishing? 
+
+# References
