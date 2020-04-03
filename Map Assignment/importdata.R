@@ -78,3 +78,6 @@ ggplot(ham8, aes(geometry=geometry, fill=percent))+
   theme_void()+
   theme(panel.grid.major = element_line(color='transparent'))
 
+# awesome work. I would maybe just change the title. Technically it is the proportion of youth (15-19) in hamilton neighbourhoods. Or something like that. Communicating proportions can be tricky. 
+#Great work. 
+
