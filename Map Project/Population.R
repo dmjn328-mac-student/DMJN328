@@ -1,7 +1,7 @@
 #install.packages("cancensus")
 library(cancensus)
-options(cancensus.api_key='CensusMapper_17d2ce97fde1a6b31319965bb10d0fb0')
-options(cancensus.cancensus.cache_path ="~")
+#options(cancensus.api_key='CensusMapper_17d2ce97fde1a6b31319965bb10d0fb0')
+#options(cancensus.cancensus.cache_path ="~")
 toronto_ct <- get_census(dataset='CA16', regions=list(CMA="35535"), vectors=c(), labels="detailed", geo_format="sf", level='CT')
 toronto_da<- get_census(dataset='CA16', regions=list(CMA="35535"), vectors=c(), labels="detailed", geo_format="sf", level='DA')
 library(ggplot2)
@@ -15,3 +15,6 @@ Toronto2<-rename(census_data, "Toddlers"= `v_CA16_7: 0 to 4 years`)
 names(Toronto2)
 install.packages('geometry')
 ggplot(Toronto2, aes(geometry=geometry, fill=Toddlers))+geom_sf()
+## Great work, Chelsey. Here's how you could modify the map a little. 
+ggplot(Toronto2, aes(geometry=geometry, fill=Toddlers))+geom_sf()+theme_void()+
+labs(title="Small children in Toronto")
