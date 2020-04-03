@@ -39,6 +39,17 @@ wasaga_beach2 %>%
 ggplot(wasaga_beach3, aes(geometry=geometry, fill=Seniors))+geom_sf()
 
 
+## comments for Brendan
+## You might want to convert these to Percentages
 
+wasaga_beach3 %>% 
+  mutate(percent=(Seniors/Population)*100) %>% 
+  ggplot(., aes(geometry=geometry, fill=percent))+geom_sf() +
+  #Then add a title and stuff
+labs(title="Percentage of Census Tracts in WB over 65")+
+  #Turn off the grey screen
+  theme_void()
+
+## Great work! It's an interesting pattern. What is it about that area that means old people like to live there? Golf courses? REtirement buildings?
 
 
