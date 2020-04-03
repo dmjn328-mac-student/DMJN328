@@ -26,3 +26,15 @@ ggplot(canada) +
   labs(title="Production of Waste by Province", 
        caption="Retrieved from StatCan",
        subtitle="(2016)")
+
+##Great work Liz. You might want to make a new variable that shows what percent of Canada's total each province makes. 
+  names(canada)
+  canada %>% 
+    mutate(percent_total=(VALUE/sum(VALUE)*100))-> canada
+  
+  ggplot(canada) +
+    geom_sf(aes(fill=percent_total))+
+    scale_fill_distiller(direction=1)+
+    labs(title="Production of Waste by Province", 
+         caption="Retrieved from StatCan",
+         subtitle="(2016)")
