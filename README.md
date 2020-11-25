@@ -1,5 +1,5 @@
-Course Description
-==================
+## Course Description
+
 
 This course builds on material in DMJN208, developing students’ facility
 withquantitative research methods used in journalism and media research.
@@ -10,8 +10,8 @@ calculations. Potential topics include survey research design and
 interpretation, causation, the central limit theorem,standard error,
 statistical significance and confidence intervals.
 
-Pep Talk
---------
+### Pep Talk
+
 
 Learning R can be tough; Lord knows I struggled to learn it. But
 learning anything is always hard. But when you have really learned it.
@@ -35,8 +35,8 @@ mylearningspace). Take a break. Walk around. Go get a drink. Watch cat
 videos on YouTube fora few minutes then just come back and take a break.
 You. can. do. this... And when you’re done, you will be blown away....
 
-Learning Outcomes
-=================
+## Learning Outcomes
+
 
 At the end of this course will be able to:
 
@@ -51,3 +51,6 @@ At the end of this course will be able to:
 
 5.  understand basic statistical concepts such as measures of central
     tendency,variation and inference.
+    
+    
+    
