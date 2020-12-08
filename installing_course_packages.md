@@ -1,3 +1,17 @@
+# Getting Set Up For The Course
+
+There are three bits of software necessary to install.
+
+1. R
+2. RStudio
+3. GitHub Desktop
+
+
+## Installing R
+There are Mac and PC versions of the statistical software R. Please visit this website [https://cran.r-project.org/](https://cran.r-project.org/) and select either Mac OS or PC. Download the software to anywhere on your PC, double-click and walk-through the steps necessary. 
+
+
+
 # Installing Course Packages
 
 R works with **packages** of commands that have been developed by other people to accomplish certain tasks. JUst like any software you use on your computer, these have to be installed. Then, when you want to use them, you load them in R using the command `library("package_name")`. 
