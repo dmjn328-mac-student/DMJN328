@@ -1,3 +1,11 @@
+---
+title: Getting Set Up For DMJN328
+author: 
+- Simon J. Kiss
+date: December 8, 2020
+bilbiography:
+reference-section-title: References
+---
 # Getting Set Up For The Course
 
 There are three bits of software necessary to install.
@@ -6,10 +14,26 @@ There are three bits of software necessary to install.
 2. RStudio
 3. GitHub Desktop
 
+I have also included a screencast of how to go through and install these here. 
 
 ## Installing R
 There are Mac and PC versions of the statistical software R. Please visit this website [https://cran.r-project.org/](https://cran.r-project.org/) and select either Mac OS or PC. Download the software to anywhere on your PC, double-click and walk-through the steps necessary. 
 
+## Installing RStudio
+You can consider R to be the engine of a car; it actually does the work of the data analysis. But you can consider RStudio to be the dashboard; a bunch of user friendly panels to tell you what is happening and tools to make the engine do the work. You'll actually never open up R on its own; you'll only ever work with RStudio. But RStudio won't work without R.
+
+To install RStudio visit: [https://rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/) and download the free version of RStudio Desktop. Follow the steps below:
+
+![Step 1](images/rstudio1.png) 
+
+![Step 2](images/rstudio2.png) 
+
+When you reach this screen, select the version of RStudio that matches your operating system. 
+
+![Step 3](images/rstudio3.png) 
+
+
+## Installing GitHub Desktop
 
 
 # Installing Course Packages
